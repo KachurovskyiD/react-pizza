@@ -9,7 +9,7 @@ function App() {
       <Header />
       <main className="main">
         <Routes>
-          <Route path="/" element={<Home />}></Route>
+          <Route path="/react-pizza" element={<Home />}></Route>
           <Route path="/cart" element={<Cart />}></Route>
         </Routes>
       </main>
