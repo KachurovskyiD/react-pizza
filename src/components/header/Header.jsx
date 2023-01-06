@@ -10,7 +10,7 @@ function Header() {
     <header className="header">
       <div className="container">
         <div className="header__wrapper">
-          <Link className="header__logo" to="/">
+          <Link className="header__logo" to="react-pizza">
             <img className="header__logo-img" src={logo} alt="Logo." />
             <div className="header__logo-text">
               <h1>REACT PIZZA</h1>
