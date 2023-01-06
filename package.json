@@ -24,7 +24,6 @@
     "uuid": "^8.3.2",
     "web-vitals": "^2.1.4"
   },
-  "proxy": "http://localhost:3001",
   "scripts": {
     "start": "concurrently \"react-scripts start\" \"npx json-server --watch public/db.json --port 3001\"",
     "build": "react-scripts build",

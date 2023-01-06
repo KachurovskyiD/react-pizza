@@ -3,7 +3,11 @@ import axios from 'axios';
 export const fetchPizzas = (category, sortBy) => (dispatch) => {
   dispatch(setLoaded(false));
 
-  axios(`/pizzas?${category > 0 ? `category=${category}` : ''}&_sort=${sortBy}&_order=asc`)
+  axios(
+    `https://62d03ee71cc14f8c08876112.mockapi.io//pizzas?${
+      category > 0 ? `category=${category}` : ''
+    }&_sort=${sortBy}&_order=asc`
+  )
     .then(({ data }) => {
       dispatch(setPizzas(data));
       dispatch(setLoaded(true));
