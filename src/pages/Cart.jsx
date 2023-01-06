@@ -100,7 +100,7 @@ function Cart() {
                 </div>
               </div>
               <div className="cart__footer">
-                <Link className="cart__back" to="react-pizza">
+                <Link className="cart__back" to="/react-pizza">
                   <svg
                     width="8"
                     height="14"
@@ -127,7 +127,7 @@ function Cart() {
               <h3 className="cart__empty-title">Корзина порожня</h3>
               <p className="cart__empty-text">Для замовлення, поверніться на головну сторінку.</p>
               <img className="cart__empty-img" src={emptyCart} alt="Empty cart." />
-              <Link className="cart__empty-btn" to="react-pizza">
+              <Link className="cart__empty-btn" to="/react-pizza">
                 Повернутися назад
               </Link>
             </div>
